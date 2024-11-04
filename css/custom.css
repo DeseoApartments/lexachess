@@ -1,0 +1,19 @@
+.bg-dark {
+    background-color: rgba(72, 147, 146, 0.76) !important; /* Usa il valore corretto */
+  }
+
+  .border {
+    border-width: 0px;
+    border-color: none;
+    border-style: none;
+    border: 1px solid;
+  }
+  
+.accordion {
+  font-size: 20px;
+}
+
+.btn-primary{
+  border: none;
+  color: white;
+}

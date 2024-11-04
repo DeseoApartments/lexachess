@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEXA Chess Tournament</title>
+  <!-- Collegamento al CSS di Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+    .logo {
+      width: 350px;
+      height: auto;
+      margin-bottom: -4vh;
+    }
+    /* Riduzione margini e padding per tutte le sezioni */
+    section {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    .accordion-header {
+      margin-bottom: 0px;
+    }
+    .accordion-body {
+      padding: 10px;
+    }
+    .mb-4 {
+      margin-bottom: 1rem !important; /* Riduzione margin bottom */
+    }
+    .py-5 {
+      padding-top: 2rem !important; /* Riduzione padding */
+      padding-bottom: 2rem !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo -->
+  <header class="text-center py-4">
+    <img src="images/logo.png" alt="Logo del Torneo" class="logo">
+  </header>
+
+  <!-- Telegram Section -->
+  <section class="container text-center my-4">
+    <p><img src="images/telegram.png" alt="Telegram" width="90vw" style="margin-top: 5%;"></p>
+    <a href="https://t.me/+yiLcw2URN8piNDY0" class="btn btn-primary" target="_blank"><b>Iscriviti al torneo su Telegram!</b></a>
+  </section>
+
+  <!-- Welcome -->
+  <section id="presentazione" class="container py-5">
+    <h2 class="text-center mb-4" style="font-size: 4vh;color:rgb(0, 67, 139);">LEXA Rapid Arena</h2>
+    <p style="text-align: center; font-size: 20px;color:rgba(0, 0, 0, 0.694);">Benvenuti alla <strong>Lexa Rapid Arena,</strong> un torneo di scacchi che si terrà in una <strong>secret location a Bologna</strong> e offre la possibilità di mettere alla prova le tue capacità di scacchista in un evento competitivo e stimolante. Con un montepremi complessivo di <strong>1500€</strong>, l’emozione è assicurata! Continuando a scorrere troverai tutte le informazioni necessarie per iscriverti al torneo!</p>
+    
+    <p style="text-align: center; font-size: 20px;color:rgba(0, 0, 0, 0.694);">Tuttavia, prima di iscriverti, ti invitiamo a <strong>valutare attentamente il tuo livello di esperienza</strong>. Il torneo è pensato per giocatori che conoscono <strong>bene le dinamiche del gioco</strong> e sono pronti a competere in partite di alto livello. Se non hai ancora raggiunto una buona padronanza del gioco, potresti trovarti in difficoltà contro avversari più esperti. <strong>LEXA</strong> non si assume la responsabilità per eventuali lamentele da parte di giocatori meno esperti che potrebbero sentirsi svantaggiati.</p>
+
+    <p style="text-align: center; font-size: 20px;color:rgba(0, 0, 0, 0.694);">Se sei sicuro delle tue capacità e hai la passione per la competizione, <strong>iscriviti ora</strong> e preparati a vivere l’adrenalina del <strong>LEXA Rapid Arena</strong>. È l’occasione ideale per dimostrare la tua abilità strategica e vivere l'emozione di un torneo professionale!</p>
+</section>
+
+  <!-- Griglia con montepremi e beneficiari -->
+  <section class="container my-5">
+    <h2 class="text-center" style="margin-top:-6%;margin-bottom:20px;font-size: 4vh;color:rgb(0, 67, 139)">Montepremi</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-3">
+        <div class="border p-4">
+          <img src="images/1°.png" width="100%" style="margin-bottom:0;">
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="border p-4">
+          <img src="images/2°.png" width="100%" style="margin-bottom:0;">
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="border p-4">
+          <img src="images/3°.png" width="100%" style="margin-bottom: 0;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Regolamento con Collapse di Bootstrap -->
+<section id="regolamento" class="container py-5">
+  <h3 class="text-center mb-4" style="font-size: 4vh;color:rgb(0, 67, 139);margin-top:-5%">Regolamento del Torneo</h3>
+  <div class="accordion" id="accordionExample">
+    <!-- Iscrizione e Pagamento -->
+    <div class="accordion-item mb-2">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <b>Iscrizione e Pagamento</b>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          La quota di iscrizione è di <b>125€</b> e deve essere versata al momento dell'iscrizione. Il pagamento può essere effettuato sia tramite <b>bonifico bancario</b> che in <b>contanti</b>. La partecipazione è garantita solo dopo aver ricevuto conferma del pagamento. <b>Le informazioni sulla location</b> verranno comunicate solo al termine dell'iscrizione.
+        </div>
+      </div>
+    </div>
+
+    <!-- Sistema di Gioco -->
+    <div class="accordion-item mb-2">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <b>Sistema di Gioco</b>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Il torneo utilizza il <b>sistema svizzero</b> a 5 turni. Chi avrà totalizzato più punti in questi 5 incontri vincerà il torneo. Non ci saranno <b>eliminazioni dirette</b>.
+        </div>
+      </div>
+    </div>
+
+    <!-- Tempo di Riflessone -->
+    <div class="accordion-item mb-2">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <b>Tempo di Riflessione e Pause</b>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Ogni partita sarà disputata con un <b>tempo di riflessione di 15 minuti per giocatore, con un incremento di 10 secondi</b> per mossa. Le <b>pause</b> tra un turno e l'altro saranno di 10 minuti e inizieranno al termine dell'ultima partita di ogni turno.
+        </div>
+      </div>
+    </div>
+
+    <!-- Dispositivi -->
+    <div class="accordion-item mb-2">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <b>Dispositivi</b>
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          I partecipanti dovranno utilizzare i propri <b>computer portatili</b> e connettersi alla piattaforma <b>Lichess.org</b> per giocare.
+        </div>
+      </div>
+    </div>
+
+    <!-- Moderatori e Gestione -->
+    <div class="accordion-item mb-2">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          <b>Moderatori e Gestione</b>
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Il torneo sarà monitorato da <b>moderatori interni</b> a LEXA CHESS TOUR i quali <b>supervisioneranno</b> le partite e risolveranno eventuali problemi tecnici. Le decisioni dei moderatori non sono contestabili.
+        </div>
+      </div>
+    </div>
+
+    <!-- Premiazione -->
+    <div class="accordion-item mb-2">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          <b>Premiazione</b>
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          La <b>premiazione</b> si terrà alla fine dei 5 turni. I primi tre classificati riceveranno i <b>premi in denaro</b> sopra indicati.
+        </div>
+      </div>
+    </div>
+
+    <!-- Fair Play -->
+    <div class="accordion-item mb-2">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          <b>Fair Play</b>
+        </button>
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Il torneo adotta una politica di <b>fair play</b> rigorosa. L'uso di <b>software di assistenza</b> o strumenti di analisi è severamente vietato. Qualsiasi violazione del regolamento comporterà l'<b>esclusione immediata</b> dal torneo.
+        </div>
+      </div>
+    </div>
+
+    <!-- Rimborsi -->
+    <div class="accordion-item mb-2">
+      <h2 class="accordion-header" id="headingEight">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          <b>Rimborsi</b>
+        </button>
+      </h2>
+      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Chi si iscrive ha tempo <b>fino a 3 settimane prima del torneo per annullare l'iscrizione. Dopo questo termine, non sarà più possibile ottenere alcun rimborso.</b>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p style="font-size: 2vh;">&copy; 2024 LEXA Chess Tournament</p>
+    <p> Tutti i diritti riservati.</p>
+    <p>_______</p>
+    <p>Il sito non utilizza cookies.</p>
+    <p> Le informazioni ricevute sono condivise volontariamente dagli utenti.</p>
+  </footer>
+
+  <!-- Collegamento al JavaScript di Bootstrap -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
